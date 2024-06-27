@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="../imagens/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../imagens/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../imagens/favicon-16x16.png">
+    <link rel="manifest" href="../imagens/site.webmanifest">
+    <!--Icons Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--Font Lilita One-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <!--Font Style Script-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+    <!--Font play-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap" rel="stylesheet">
+    <style>
+        .btn1{
+            font-size: 3rem;
+            width: 100%;
+            margin-bottom: 5px;
+            background-color: #62a3f8;
+        }
+        .btn-balcao{
+            background-color: black;
+            color: white;
+            font-size: 3rem;
+        }
+        .btn-numero{
+            background-color: white;
+            font-size: 3rem;
+        }
+        .row{
+            padding-bottom: 3px;
+        }
+        marquee{
+            font-size: 3rem;
+        }
+        .primeira-linha .btn-group .btn{
+            font-size: 1rem;
+            color: black;
+        }
+        .primeira-linha .col-4{
+            display:flex;
+            align-items: end;
+        }
+        *{
+            padding: 0;
+            margin:0;
+        }
+        body{
+            background-color:#3f8ef5 ;
+            padding: 0;
+            margin: 0;
+        }
+        .navbar-brand:hover{
+            color:black;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: white;
+        }
+        .nav-text{
+            color: black;
+        }
+        .navbar-nav .nav-link.active{
+            color: white;
+            font-weight: 800;
+        }
+        .navbar-nav .nav-link.active:hover{
+            color: white;
+        }
+        .navbar-nav .nav-link.show{
+            color: white;
+        }
+        .nav-link:focus, .nav-link:hover{
+            color: white;
+        }
+        .dropdown-menu{
+            background-color: orange;
+        }
+        .dropdown-item{
+            color: white;
+        }
+        .dropdown-item:focus, .dropdown-item:hover{
+            color: #ffcbdb;
+            text-decoration: underline white;
+            background-color: orange;
+        }
+        #login-btn{
+            background-color: white;
+            color: black;
+            font-weight: 550;
+            border-color: black;
+        }
+        footer{
+        background-color: #3f8ef5;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        }
+
+        .icons-footer{
+            font-size: 30px;
+        }
+        .Instagram-footer{
+            color: white;
+            margin-right: 5px;
+        }
+        .Whatsapp-footer{
+            color: white;
+        }
+        .title{
+            font-family: "Style Script", cursive;
+            font-weight: 750;
+            color: #ffa8b5;
+            font-size: 40px;
+            text-decoration: none;
+            font-size: 3rem;
+        }
+    </style>
+    <title>Guiche 1</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #3f8ef5;">
+        <div class="container-fluid">
+          <a href="#"><img src="logo.png" alt="logo" height="150px"/></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active nav-text" aria-current="page" href="../index.html">Início</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div class="container">
+        <div class="row primeira-linha">
+            <div class="col-4">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn1 btn">Sala</button>
+                    <button type="button" class="btn1 btn">Senha</button>
+                  </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8">
+                <button type="button" class="btn1 btn btn-danger">Consulta</button>
+            </div>
+            <div class="col-4">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-balcao">01</button>
+                    <button type="button" class="btn btn-numero">055</button>
+                  </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-8">
+                <button type="button" class="btn1 btn btn-danger">Exame</button>
+            </div>
+            <div class="col-4">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-balcao">06</button>
+                    <button type="button" class="btn btn-numero">033</button>
+                  </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8">
+                <button type="button" class="btn1 btn btn-danger">Emergência</button>
+            </div>
+            <div class="col-4">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-balcao">03</button>
+                    <button type="button" class="btn btn-numero">021</button>
+                  </div>
+            </div>
+        </div>
+    </div>
+<marquee>Seu pet faz parte da família. Traga seu amigo de quatro patas a melhor clinica veterinária de Brasília</marquee>
+<footer class="text-center">
+    <div class="icons-footer">
+      <a href="#" class="Instagram-footer"><i class="bi bi-instagram"></i></a>
+      <a href="#" class="Whatsapp-footer"><i class="bi bi-whatsapp"></i></a>
+    </div>
+  </footer>
+    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

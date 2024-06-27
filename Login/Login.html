@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="../imagens/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../imagens/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../imagens/favicon-16x16.png">
+    <link rel="manifest" href="../imagens/site.webmanifest">
+    <link rel="icon" type="image/x-icon" href="aa.ico">
+    <title>Login</title>
+    
+    <style>
+      .vr {
+        padding:0;
+      }
+      .container{
+        margin-top:10px;
+      }
+      .container h1{
+        margin-bottom:15px;
+        font-weight: 800;
+        text-decoration: underline;
+      }
+      body{
+        background-color: #3f8ef5;
+      }
+      #login-btn:hover{
+        background-color: white;
+        color: black;
+      }
+      .form-check-input:checked {
+         background-color: #3f8ef5;
+         border:none;
+       }
+       .font{
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+       }
+       .card{
+        background-color: #62a3f8;
+        padding: 15px;
+        margin-left: 25px;
+        justify-content: center;
+       }
+       #login-btn{
+        background-color: #3f8ef5;
+        color: black;
+        font-weight: 550;
+        border-color: #62a3f8;
+      }
+      
+        .container img{
+          width: 600px;
+        }
+
+    </style>
+</head>
+<script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+<body>
+<br> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+  <div class="container">
+    <div class="row">
+    <div class="col-6">
+      <img src="../imagens/header.png" class="Cachorro">
+    </div>
+    <div class="vr"></div>
+<div class="card col-4">
+    <form>
+      <h3 class="text-center font">LOGIN</h3>
+    <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text"></div>
+  </div>
+    <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Senha</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+    <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Lembrar-me</label>
+  </div>
+  <div>
+    <a href="../Home/Loginhome.html"><button class="btn" id="login-btn" type="button">Entrar</button></a>
+  </div>
+  </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>
